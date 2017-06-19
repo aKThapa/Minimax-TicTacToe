@@ -1,0 +1,103 @@
+body{
+    background-color: black;
+    background-size: cover;
+    color: gold;
+}
+
+.container{
+    background-color: #063e10;
+    padding:0px 2px 40px 2px;
+}
+
+table{
+   /* border: 1px solid black;*/
+}
+
+
+td{
+    width: 33.33%;
+    position: relative;
+    /*border: 5px solid red;*/
+    text-align: center;
+}
+
+#gameState{
+    color:red;
+}
+
+#grid0{
+    border: 4px solid red;
+    border-width: 0px 4px 4px 0px;
+}#grid1{
+    border: 4px solid red;
+    border-width: 0px 4px 4px 4px;
+}#grid2{
+    border: 4px solid red;
+    border-width: 0px 0px 4px 4px;
+}#grid3{
+    border: 4px solid red;
+    border-width: 4px 4px 4px 0px;
+}#grid4{
+    border: 4px solid red;
+    border-width: 4px 4px 4px 4px;
+}#grid5{
+    border: 4px solid red;
+    border-width: 4px 0px 4px 4px;
+}#grid6{
+    border: 4px solid red;
+    border-width: 4px 4px 0px 0px;
+}#grid7{
+    border: 4px solid red;
+    border-width: 4px 4px 0px 4px;
+}#grid8{
+    border: 4px solid red;
+    border-width: 4px 0px 0px 4px;
+}
+
+td:after {
+  content: '';
+  display: block;
+  margin-top: 100%;
+}
+
+td .content {
+  color:black;
+  position: absolute;
+  padding-top: 25%;
+  font-size: 700%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+    background: gold;
+
+}
+
+.btn-primary{
+    background: gold;
+    color: black;
+    text-align:center;
+    font-size:200%;
+    border: 2px solid white;
+}
+
+.btn-primary:hover{
+    background: gold;
+    color: red;
+    border: 2px solid red;
+}
+
+.btn-primary:active{
+    background:red;
+}
+
+
+
+@media only screen and (max-width: 320px) {
+    td .content{
+        
+          font-size: 300% !important; 
+    }
+
+}
+
